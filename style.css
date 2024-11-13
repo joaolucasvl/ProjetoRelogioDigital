@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+#hora {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
